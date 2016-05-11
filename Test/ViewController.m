@@ -6,7 +6,9 @@
 //  Copyright © 2016 Dareen Hsu. All rights reserved.
 //
 
+
 #import "ViewController.h"
+#import "NSString+Utility.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    NSString *str = @"hello world!";
+    NSLog(@"%@",[str reverse]);
 }
 
 - (void)didReceiveMemoryWarning {

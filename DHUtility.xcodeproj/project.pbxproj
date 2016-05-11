@@ -27,6 +27,8 @@
 		8C30AA9D1CE03DEF00D1BB7F /* MathFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AA9B1CE03DEF00D1BB7F /* MathFunction.m */; };
 		8C30AAA41CE0402700D1BB7F /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AAA11CE0402700D1BB7F /* Keychain.m */; };
 		8C30AAA51CE0402700D1BB7F /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AAA11CE0402700D1BB7F /* Keychain.m */; };
+		8CC7F7B91CE304E700F7E48B /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7F7B81CE304E700F7E48B /* NSString+Utility.m */; };
+		8CC7F7BA1CE304E700F7E48B /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7F7B81CE304E700F7E48B /* NSString+Utility.m */; };
 		8CE6065A1AE4DD2500AB2CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE606591AE4DD2500AB2CD7 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		8C30AA9B1CE03DEF00D1BB7F /* MathFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathFunction.m; sourceTree = "<group>"; };
 		8C30AAA01CE0402700D1BB7F /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
 		8C30AAA11CE0402700D1BB7F /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		8CC7F7B71CE304E700F7E48B /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		8CC7F7B81CE304E700F7E48B /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
 		8CE606561AE4DD2500AB2CD7 /* DHUtility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DHUtility; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE606591AE4DD2500AB2CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +218,15 @@
 			path = KeyChain;
 			sourceTree = "<group>";
 		};
+		8CC7F7B21CE304B500F7E48B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				8CC7F7B71CE304E700F7E48B /* NSString+Utility.h */,
+				8CC7F7B81CE304E700F7E48B /* NSString+Utility.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		8CE6064D1AE4DD2500AB2CD7 = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +258,7 @@
 		8CE606611AE4DE3D00AB2CD7 /* Addition */ = {
 			isa = PBXGroup;
 			children = (
+				8CC7F7B21CE304B500F7E48B /* NSString */,
 				8C30AA5B1CE03BE100D1BB7F /* NSArray */,
 				8C30AA5E1CE03BE100D1BB7F /* NSDate */,
 				8C30AA611CE03BE100D1BB7F /* NSDecimalNumber */,
@@ -349,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC7F7BA1CE304E700F7E48B /* NSString+Utility.m in Sources */,
 				8C30AA891CE03CDB00D1BB7F /* ViewController.m in Sources */,
 				8C30AA9D1CE03DEF00D1BB7F /* MathFunction.m in Sources */,
 				8C30AA991CE03DDD00D1BB7F /* NSDecimalNumber+Calculator.m in Sources */,
@@ -372,6 +387,7 @@
 				8C30AA771CE03BE100D1BB7F /* NSNumber+Type.m in Sources */,
 				8C30AA791CE03BE100D1BB7F /* UIColor+Hex.m in Sources */,
 				8C30AAA41CE0402700D1BB7F /* Keychain.m in Sources */,
+				8CC7F7B91CE304E700F7E48B /* NSString+Utility.m in Sources */,
 				8C30AA731CE03BE100D1BB7F /* NSArray+NewCount.m in Sources */,
 				8C30AA741CE03BE100D1BB7F /* NSDate+Today.m in Sources */,
 			);
@@ -542,6 +558,7 @@
 				8C30AA951CE03CDB00D1BB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CE606511AE4DD2500AB2CD7 /* Build configuration list for PBXProject "DHUtility" */ = {
 			isa = XCConfigurationList;
