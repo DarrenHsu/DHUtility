@@ -35,7 +35,6 @@
     static NSDictionary* deviceNamesByCode = nil;
 
     if (!deviceNamesByCode) {
-
         deviceNamesByCode = @{@"i386"      :@"Simulator",
                               @"x86_64"    :@"Simulator",
                               @"iPod1,1"   :@"iPod Touch",      // (Original)
@@ -76,8 +75,6 @@
     NSString* deviceName = [deviceNamesByCode objectForKey:name];
 
     if (!deviceName) {
-        // Not found on database. At least guess main device type from string contents:
-
         if ([name rangeOfString:@"iPod"].location != NSNotFound) {
             deviceName = @"iPod Touch";
         }
