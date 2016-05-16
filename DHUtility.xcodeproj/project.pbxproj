@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8C30AA731CE03BE100D1BB7F /* NSArray+NewCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AA5D1CE03BE100D1BB7F /* NSArray+NewCount.m */; };
-		8C30AA741CE03BE100D1BB7F /* NSDate+Today.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AA601CE03BE100D1BB7F /* NSDate+Today.m */; };
 		8C30AA751CE03BE100D1BB7F /* NSDecimalNumber+with.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AA631CE03BE100D1BB7F /* NSDecimalNumber+with.m */; };
 		8C30AA761CE03BE100D1BB7F /* NSDictionary+Process.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AA661CE03BE100D1BB7F /* NSDictionary+Process.m */; };
 		8C30AA771CE03BE100D1BB7F /* NSNumber+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AA691CE03BE100D1BB7F /* NSNumber+Type.m */; };
@@ -27,6 +26,8 @@
 		8C30AA9D1CE03DEF00D1BB7F /* MathFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AA9B1CE03DEF00D1BB7F /* MathFunction.m */; };
 		8C30AAA41CE0402700D1BB7F /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AAA11CE0402700D1BB7F /* Keychain.m */; };
 		8C30AAA51CE0402700D1BB7F /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30AAA11CE0402700D1BB7F /* Keychain.m */; };
+		8C69D27C1CE9A1E6009243E0 /* UIDevice+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69D27B1CE9A1E6009243E0 /* UIDevice+Utility.m */; };
+		8C69D27F1CE9A213009243E0 /* NSDate+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69D27E1CE9A213009243E0 /* NSDate+Utility.m */; };
 		8CC7F7B91CE304E700F7E48B /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7F7B81CE304E700F7E48B /* NSString+Utility.m */; };
 		8CC7F7BA1CE304E700F7E48B /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7F7B81CE304E700F7E48B /* NSString+Utility.m */; };
 		8CC7F7BE1CE30D3200F7E48B /* CGPoint+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7F7BD1CE30D3200F7E48B /* CGPoint+Utility.m */; };
@@ -48,8 +49,6 @@
 /* Begin PBXFileReference section */
 		8C30AA5C1CE03BE100D1BB7F /* NSArray+NewCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NewCount.h"; sourceTree = "<group>"; };
 		8C30AA5D1CE03BE100D1BB7F /* NSArray+NewCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NewCount.m"; sourceTree = "<group>"; };
-		8C30AA5F1CE03BE100D1BB7F /* NSDate+Today.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Today.h"; sourceTree = "<group>"; };
-		8C30AA601CE03BE100D1BB7F /* NSDate+Today.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Today.m"; sourceTree = "<group>"; };
 		8C30AA621CE03BE100D1BB7F /* NSDecimalNumber+with.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+with.h"; sourceTree = "<group>"; };
 		8C30AA631CE03BE100D1BB7F /* NSDecimalNumber+with.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+with.m"; sourceTree = "<group>"; };
 		8C30AA651CE03BE100D1BB7F /* NSDictionary+Process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Process.h"; sourceTree = "<group>"; };
@@ -78,6 +77,10 @@
 		8C30AA9B1CE03DEF00D1BB7F /* MathFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathFunction.m; sourceTree = "<group>"; };
 		8C30AAA01CE0402700D1BB7F /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
 		8C30AAA11CE0402700D1BB7F /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		8C69D27A1CE9A1E6009243E0 /* UIDevice+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Utility.h"; sourceTree = "<group>"; };
+		8C69D27B1CE9A1E6009243E0 /* UIDevice+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Utility.m"; sourceTree = "<group>"; };
+		8C69D27D1CE9A213009243E0 /* NSDate+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utility.h"; sourceTree = "<group>"; };
+		8C69D27E1CE9A213009243E0 /* NSDate+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utility.m"; sourceTree = "<group>"; };
 		8CC7F7B71CE304E700F7E48B /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
 		8CC7F7B81CE304E700F7E48B /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
 		8CC7F7BC1CE30D3200F7E48B /* CGPoint+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGPoint+Utility.h"; sourceTree = "<group>"; };
@@ -116,8 +119,8 @@
 		8C30AA5E1CE03BE100D1BB7F /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				8C30AA5F1CE03BE100D1BB7F /* NSDate+Today.h */,
-				8C30AA601CE03BE100D1BB7F /* NSDate+Today.m */,
+				8C69D27D1CE9A213009243E0 /* NSDate+Utility.h */,
+				8C69D27E1CE9A213009243E0 /* NSDate+Utility.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -221,6 +224,15 @@
 			path = KeyChain;
 			sourceTree = "<group>";
 		};
+		8C69D2791CE9A1E6009243E0 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				8C69D27A1CE9A1E6009243E0 /* UIDevice+Utility.h */,
+				8C69D27B1CE9A1E6009243E0 /* UIDevice+Utility.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
 		8CC7F7B21CE304B500F7E48B /* NSString */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +282,7 @@
 		8CE606611AE4DE3D00AB2CD7 /* Addition */ = {
 			isa = PBXGroup;
 			children = (
+				8C69D2791CE9A1E6009243E0 /* UIDevice */,
 				8CC7F7BB1CE30D1100F7E48B /* CGPoint */,
 				8CC7F7B21CE304B500F7E48B /* NSString */,
 				8C30AA5B1CE03BE100D1BB7F /* NSArray */,
@@ -378,6 +391,7 @@
 			files = (
 				8CC7F7BA1CE304E700F7E48B /* NSString+Utility.m in Sources */,
 				8C30AA891CE03CDB00D1BB7F /* ViewController.m in Sources */,
+				8C69D27C1CE9A1E6009243E0 /* UIDevice+Utility.m in Sources */,
 				8C30AA9D1CE03DEF00D1BB7F /* MathFunction.m in Sources */,
 				8C30AA991CE03DDD00D1BB7F /* NSDecimalNumber+Calculator.m in Sources */,
 				8C30AAA51CE0402700D1BB7F /* Keychain.m in Sources */,
@@ -397,13 +411,13 @@
 				8C30AA981CE03DDD00D1BB7F /* NSDecimalNumber+Calculator.m in Sources */,
 				8C30AA751CE03BE100D1BB7F /* NSDecimalNumber+with.m in Sources */,
 				8C30AA761CE03BE100D1BB7F /* NSDictionary+Process.m in Sources */,
+				8C69D27F1CE9A213009243E0 /* NSDate+Utility.m in Sources */,
 				8CC7F7BE1CE30D3200F7E48B /* CGPoint+Utility.m in Sources */,
 				8C30AA771CE03BE100D1BB7F /* NSNumber+Type.m in Sources */,
 				8C30AA791CE03BE100D1BB7F /* UIColor+Hex.m in Sources */,
 				8C30AAA41CE0402700D1BB7F /* Keychain.m in Sources */,
 				8CC7F7B91CE304E700F7E48B /* NSString+Utility.m in Sources */,
 				8C30AA731CE03BE100D1BB7F /* NSArray+NewCount.m in Sources */,
-				8C30AA741CE03BE100D1BB7F /* NSDate+Today.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,8 +559,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Darren Hsu (W45ZNX26E6)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "15aa650d-e842-4ddc-af78-aa2f59a029b8";
 				SWIFT_OBJC_BRIDGING_HEADER = "DHUtility/Utility/DHUtility-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -556,8 +572,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Darren Hsu (W45ZNX26E6)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "15aa650d-e842-4ddc-af78-aa2f59a029b8";
 				SWIFT_OBJC_BRIDGING_HEADER = "DHUtility/Utility/DHUtility-Bridging-Header.h";
 			};
 			name = Release;

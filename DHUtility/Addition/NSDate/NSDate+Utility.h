@@ -1,23 +1,23 @@
 //
-//  NSDate+Today.h
-//  SKLifePlan
+//  NSDate+Utility.h
+//  DHUtility
 //
-//  Created by skcu1805 on 2014/11/11.
-//  Copyright (c) 2014年 D.H. All rights reserved.
+//  Created by Dareen Hsu on 5/16/16.
+//  Copyright © 2016 Dareen Hsu. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (Today)
+@interface NSDate (Utility)
 
 - (NSInteger) chineseYearValue;
 - (NSInteger) yearValue;
 - (NSInteger) monthValue;
 - (NSInteger) dayValue;
 
-+ (NSDate *) getTodayDate;
-+ (NSString *) getToday;
-+ (NSString *) getChineseToday;
++ (NSDate *) getToday;
++ (NSString *) getTodayString;
++ (NSString *) getChineseTodayString;
 + (NSString *) getChineseDateStringWithDate:(NSDate *) date;
 
 + (NSDate *) getDateWithString:(NSString *) dstr format:(NSString *) format;
@@ -29,7 +29,7 @@
 - (NSInteger) insurableYearSinceDate:(NSDate *) date;
 
 - (NSInteger) yearSinceToday;
-- (NSInteger) yearSinceDate:(NSDate *)  date;
+- (NSInteger) yearSinceDate:(NSDate *) date;
 
 - (NSInteger) monthSinceToday;
 - (NSInteger) daySinceToday;
