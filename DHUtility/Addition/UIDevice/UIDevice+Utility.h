@@ -13,4 +13,12 @@
 - (NSString *) deviceName;
 - (NSString *) IPAddress;
 
+- (NSString *) totalDiskSpace;
+- (NSString *) freeDiskSpace;
+- (NSString *) usedDiskSpace;
+
+- (CGFloat) totalDiskSpaceInBytes;
+- (CGFloat) freeDiskSpaceInBytes;
+- (CGFloat) usedDiskSpaceInBytes;
+
 @end
